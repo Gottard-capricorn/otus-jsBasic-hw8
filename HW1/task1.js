@@ -2,3 +2,12 @@
 В переменных a и b хранятся числа. 
 Написать программу, которая выводит в консоль произведение и сумму этих чисел.
 */
+
+export function multiply(a, b) {
+    console.log(a * b);
+}
+
+export function sum(a, b) {
+    console.log(a + b);
+} 
+
